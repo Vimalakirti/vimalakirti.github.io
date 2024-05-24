@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2023-08-01 15:59:00-0400
+date: 2024-02-11 05:05:00-0400
 inline: true
 ---
 
-I leave Academia Sinica and begin my journey to pursue a PhD in UIUC CS.
+My paper was accepted for European chapter of ACM SIGOPS (EuroSys)!

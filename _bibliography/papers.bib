@@ -58,3 +58,23 @@ arxiv = {2208.12649},
 preview={seeding.png},
 pdf={https://dl.acm.org/doi/abs/10.1145/3511808.3557708},
 }
+
+@inproceedings{icde24,
+  author          = {Chen, Bing-Jyue and Ho, Chiok Yew and Yang, De-Nian},
+  booktitle       = {IEEE International Conference on Data Engineering (IEEE ICDE)},
+  title           = {AFTER: Adaptive Friend Discovery for Temporal-spatial and Social-aware XR},
+  year            = {2024},
+  abstract        = {
+    Recent advancements in the field of extended reality (XR) have garnered significant interest in XR socialization. However, traditional social XR experiences often fall short of satisfying users' social expectations due to the negligence of the emerging opportunities in XR. In this paper, we propose a novel scenario of socializing in social XR, which has the potential to substantially enhance traditional social media through i) the recommendation of appropriate surrounding users that cater to users' individual preferences, ii) the adaptive avoidance of view occlusions to facilitate users in locating their friends, iii) the consideration of users' social presence, and iv) the development of cross-platform solutions to provide hybrid participation. To this end, we formulate Adaptive Friend Discovery for Temporal-spatial and Social-aware XR, a new NP-hard social recommendation problem aiming at satisfying social XR users. The proposed model, POSHGNN, is a deep temporal graph learning framework designed to provide efficient social recommendations for target users. Experimental results obtained from real-world social XR datasets and a user study that supports multiple XR interfaces demonstrate that the proposed method outperforms baseline approaches with an improvement of 18.5% in solution quality.
+  }
+}
+
+@inproceedings{eurosys24,
+  author          = {Chen, Bing-Jyue and Waiwitlikhit, Suppakit and Stoica, Ion and Kang, Daniel},
+  booktitle       = {Proceedings of the Nineteenth European Conference on Computer Systems (EuroSys)},
+  title           = {ZKML: An Optimizing System for ML Inference in Zero-Knowledge Proofs},
+  year            = {2024},
+  abstract        = {
+    Machine learning (ML) is increasingly used behind closed systems and APIs to make important decisions. For example, social media uses ML-based recommendation algorithms to decide what to show users, and millions of people pay to use ChatGPT for information every day. Because ML is deployed behind these closed systems, there are increasing calls for transparency, such as releasing model weights. However, these service providers have legitimate reasons not to release this information, including for privacy and trade secrets. To bridge this gap, recent work has proposed using zero-knowledge proofs (specifically a form called ZK-SNARKs) for certifying computation with private models but has only been applied to unrealistically small models. In this work, we present the first framework, ZKML, to produce ZK-SNARKs for realistic ML models, including state-of-the-art vision models, a distilled GPT-2, and the ML model powering Twitter's recommendations. We accomplish this by designing an optimizing compiler from TensorFlow to circuits in the halo2 ZK-SNARK proving system. There are many equivalent ways to implement the same operations within ZK-SNARK circuits, and these design choices can affect performance by 24×. To efficiently compile ML models, ZKML contains two parts: gadgets (efficient constraints for low-level operations) and an optimizer to decide how to lay out the gadgets within a circuit. Combined, these optimizations enable proving on a wider range of models, faster proving, faster verification, and smaller proofs compared to prior work.
+  }
+}

@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2022-08-03 15:59:00-0400
+date: 2023-12-23 00:59:00-0400
 inline: true
 ---
 
-Our two papers were accepted for ACM International Conference on Information and Knowledge Management (CIKM)!
+My paper was accepted for IEEE International Conference on Data Engineering (ICDE)!
