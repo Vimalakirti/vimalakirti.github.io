@@ -165,6 +165,7 @@ keep_files:
   - CNAME
   - .nojekyll
   - .git
+  - assets/pdf/chenbingjyue_resume.pdf
 
 # Plug-ins
 plugins:

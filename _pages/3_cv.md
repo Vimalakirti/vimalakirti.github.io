@@ -1,7 +1,6 @@
 ---
-permalink: /cv/
+permalink: /assets/pdf/chenbingjyue_resume.pdf
 title: cv
 nav: true
 nav_order: 4
-redirect: /assets/pdf/chenbingjyue_resume.pdf
 ---
