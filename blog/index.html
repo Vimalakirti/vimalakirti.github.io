@@ -20,7 +20,7 @@ pagination:
     <h2>{{ site.blog_description }}</h2>
   </div>
 
-  {% if site.display_tags %}
+  {% if site.display_tags.size > 0 %}
   <div class="tag-list">
     <ul class="p-0 m-0">
       {% for tag in site.display_tags %}
